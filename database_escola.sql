@@ -1,7 +1,7 @@
 create database ESCOLA;
 use ESCOLA;
 create table aluno (
-id int auto_increment not null primary key,
+id serial auto_increment not null primary key,
 nome varchar (20) not null,
 matricula int (4) not null,
 email varchar (50) not null,
